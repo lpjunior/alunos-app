@@ -1,0 +1,19 @@
+#main {
+    font-size: 0.6em;
+    a { 
+        font: {
+            weight: bold;
+            family: serif;
+        }
+
+        &:link {
+            color: chocolate;
+        }
+
+        &:hover {
+            color: #eee;
+            background-color:chocolate;
+            font-size: 1.1em;
+        }
+    }
+}
